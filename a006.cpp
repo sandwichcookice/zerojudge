@@ -9,7 +9,7 @@ int main() {
 
     int a, b, c;
 
-    scanf_s("%d %d %d", &a, &b, &c);
+    scanf("%d %d %d", &a, &b, &c);
 
     float discriminant = b * b - 4 * a * c, x1, x2;
 
