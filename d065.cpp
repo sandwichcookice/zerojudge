@@ -1,4 +1,4 @@
-﻿// 解題思路:
+// 解題思路:
 // 三數比較大小
 // 引入標頭檔 : algoritihm
 // 裡面有max() 取最大值可用
@@ -19,6 +19,6 @@ using namespace std;
 int main()
 {
     int a, b, c;
-    scanf_s("%d %d %d", &a, &b, &c);
+    scanf("%d %d %d", &a, &b, &c);
     cout << max(max(a, b), c);
 }
